@@ -23,3 +23,20 @@ function sendMail() {
   // Open the mailto link in a new tab/window
   window.open(mailtoLink, '_blank');
 }
+
+// Get all the nav items
+var navItems = document.querySelectorAll('.nav-item .nav-link');
+
+// Add click event listener to each item
+navItems.forEach(function(item) {
+  item.addEventListener('click', function(e) {
+
+    // Remove active class from all items
+    navItems.forEach(function(item) {
+      item.classList.remove('active');
+    });
+
+    // Add active class to clicked item
+    this.classList.add('active');
+  });
+});
