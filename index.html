@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#000000" />
+  <meta name="description" content="Kenny's Porfolio Website" />
+  <title>Kenny Porfolio</title>
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+    integrity="sha256-2TnSHycBDAm2wpZmgdi0z81kykGPJAkiUY+Wf97RbvY=" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="style.css">
+  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <!-- Navigation Bar -->
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top bg-light shadow-sm">
+    <div class="container-lg">
+      <a class="navbar-brand text-danger fw-bold fs-4" href="#home">Kenny</a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#home">
+              <i class="fa-solid fa-house-chimney-window"></i> Home
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">
+              <i class="fa-regular fa-circle-user"></i> About
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#services">
+              <i class="fa-solid fa-headphones"></i> Services
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#projects">
+              <i class="fa-solid fa-diagram-project"></i> Projects
+            </a>
+          </li>
+          <!-- <li class="nav-item">
+                <a class="nav-link" href="#testimonials">
+                <FontAwesomeIcon icon={['fas', 'fa-headphones']} /> Testimonials
+                </a>
+              </li>  -->
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">
+              <i class="fa-regular fa-address-book"></i> Contact
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Home -->
+  <section class="home pt-5" id="home">
+    <div class="container-lg">
+      <div class="row min-vh-100 align-item-center align-content-center">
+        <div class="col-md-6 mt-5 mt-md-0">
+          <div class="home-img text-center">
+            <img src="images/propic4.png" class="rounded-circle mw-100" alt="profile" width="350" height="350" />
+          </div>
+        </div>
+        <div class="col-md-6 mt-5 mt-md-0 order-md-first d-flex align-items-center">
+          <div class="home-text ">
+            <p class="text-muted mb-1 fs-4">Hello I'm a</p>
+            <h1 class="text-danger fs-1 fw-bold"><span class="textTyped"></span></h1>
+            <h2 class="fs-3">Kenny</h2>
+            <p class="mt-4 text-muted fs-6">Toronto, Canada</p>
+            <a href="#projects" class="btn btn-danger px-3 mt-3">My Projects</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Me -->
+  <section class="about py-5" id="about">
+    <div class="container-lg py-4">
+      <div class="row justify-content-center">
+        <div class="col-lg-8 ">
+          <div class="section-title text-center">
+            <h2 class="fw-bold mb-5">About Me</h2>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6">
+          <div class="about-text">
+            <h3 class="fs-4 mb-3">
+              I'm <span class="text-danger fs-4 fw-bold">Ka Lam LEE</span>
+              , a Full Stack IT Specialist
+            </h3>
+            <p class="text-muted">
+              A savvy IT wizard who can code, IP network, and administrate
+              system. <br />A curious and creative problem solver who thrives
+              on new challenges and opportunities.
+            </p>
+          </div>
+          <div class="row text-center text-uppercase my-3">
+            <div class="col-sm-4">
+              <div class="fact-item">
+                <h4 class="fs-1 fw-bold">8+</h4>
+                <p class="text-muted">Years Experience</p>
+              </div>
+            </div>
+            <div class="col-sm-4">
+              <div class="fact-item">
+                <h4 class="fs-1 fw-bold">30+</h4>
+                <p class="text-muted">Projects Completed</p>
+              </div>
+            </div>
+            <!-- <div class="col-sm-4">
+              <div class="fact-item">
+                <h4 class="fs-1 fw-bold">95</h4>
+                <p class="text-muted">Positive Reviews</p>
+              </div>
+            </div> -->
+          </div>
+          <div class="row">
+            <div class="col-lg-12 d-flex align-items-center">
+              <a href="Portfolio Resume.pdf" target="_blank" class="btn btn-danger px-3 me-3">
+                <i class="fa-regular fa-file-pdf"></i> My Resume
+              </a>
+              <div class="social-links">
+                <a href="https://www.linkedin.com/in/kenny-lkl/" target="_blank">
+                  <i class="fa-brands fa-linkedin-in"></i>
+                </a>
+                &nbsp;
+                <a href="https://github.com/lklcentennial" target="_blank">
+                  <i class="fa-brands fa-github"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 mt-5 mt-md-0">
+          <div class="skill-item my-4">
+            <h3 class="fs-6">IP Networking</h3>
+            <div class="progress" style="height:5px">
+              <div class="progress-bar bg-danger" role="progressbar" style="width: 90%" aria-valuenow="90"
+                aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+          </div>
+          <div class="skill-item my-4">
+            <h3 class="fs-6">Software Engineering</h3>
+            <div class="progress" style="height: 5px">
+              <div class="progress-bar bg-danger" role="progressbar" style="width: 80%" aria-valuenow="80"
+                aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+          </div>
+          <div class="skill-item my-4">
+            <h3 class="fs-6">System</h3>
+            <div class="progress" style="height: 5px">
+              <div class="progress-bar bg-danger" role="progressbar" style="width: 75%" aria-valuenow="75"
+                aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services -->
+  <section class="services py-5" id="services">
+    <div class="container-lg py-4">
+      <div class="row justify-content-center">
+        <div class="col-lg-8 ">
+          <div class="section-title text-center">
+            <h2 class="fw-bold mb-5">What I Do</h2>
+          </div>
+        </div>
+      </div>
+      <div class="row text-center">
+        <div class="col-md-6 col-lg-4 mb-4">
+          <div class="service-item shadow-sm p-4 rounded bg-white">
+            <div class="icon my-3 text-danger fs-2">
+              <i class="fa-solid fa-code"></i>
+            </div>
+            <h3 class="fs-5 py-2">Web Development</h3>
+            <p class="text-muted">Full Stack.</p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4 mb-4">
+          <div class="service-item shadow-sm p-4 rounded bg-white">
+            <div class="icon my-3 text-danger fs-2">
+              <i class="fa-regular fa-lightbulb"></i>
+            </div>
+            <h3 class="fs-5 py-2">Programming</h3>
+            <p class="text-muted">Efficient.</p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4 mb-4">
+          <div class="service-item shadow-sm p-4 rounded bg-white">
+            <div class="icon my-3 text-danger fs-2">
+              <i class="fa-solid fa-network-wired"></i>
+            </div>
+            <h3 class="fs-5 py-2">IP Networking</h3>
+            <p class="text-muted">Professional.</p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4 mb-4">
+          <div class="service-item shadow-sm p-4 rounded bg-white">
+            <div class="icon my-3 text-danger fs-2">
+              <i class="fa-solid fa-info"></i>
+            </div>
+            <h3 class="fs-5 py-2">IT Support</h3>
+            <p class="text-muted">Hardware & Software.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+
+  <section class="projects py-5" id="projects">
+    <div class="container-lg py-4">
+      <div class="row justify-content-center">
+        <div class="col-lg-8 ">
+          <div class="section-title text-center">
+            <h2 class="fw-bold mb-5">Projects</h2>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6 col-lg-4">
+          <div class="projects-item">
+            <div class="hover-container">
+              <img src="images/sfn.jpeg" alt="projects item" class="image w-100 img-thumbnail" />
+              <div class="overlay d-flex justify-content-center align-items-center">
+                <ul class="list-unstyled">
+                  <li class="d-inline-block me-3">
+                    <a href="https://github.com/lklcentennial/hackathon-foodbank" target="_blank" rel="noreferrer"
+                      class="hover-icon">
+                      <i class="fa-brands fa-square-github"></i>
+                    </a>
+                  </li>
+                  <li class="d-inline-block me-3">
+                    <a href="#projects" rel="noreferrer" class="hover-icon">
+                      <i class="fa-solid fa-globe"></i>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <h3 class="text-capitalize fs-5 my-3 text-center">
+              Scarborough Food Network Hackathon
+            </h3>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4">
+          <div class="projects-item">
+            <div class="hover-container">
+              <img src="images/ecommerce.jpg" alt="projects item" class="image w-100 img-thumbnail" />
+              <div class="overlay d-flex justify-content-center align-items-center">
+                <ul class="list-unstyled">
+                  <li class="d-inline-block me-3">
+                    <a href="https://github.com/Alvisalc/ShopGenius_F1" target="_blank" rel="noreferrer"
+                      class="hover-icon">
+                      <i class="fa-brands fa-square-github"></i>
+                    </a>
+                  </li>
+                  <li class="d-inline-block me-3">
+                    <a href="#projects" rel="noreferrer" class="hover-icon">
+                      <i class="fa-solid fa-globe"></i>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <h3 class="text-capitalize fs-5 my-3 text-center">
+              ShopGenuis
+            </h3>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4">
+          <div class="projects-item">
+            <div class="hover-container">
+              <img src="images/blog.jpeg" alt="projects item" class="image w-100 img-thumbnail" />
+              <div class="overlay d-flex justify-content-center align-items-center">
+                <ul class="list-unstyled">
+                  <li class="d-inline-block me-3">
+                    <a href="https://github.com/lklcentennial/kenny-blog" target="_blank" rel="noreferrer"
+                      class="hover-icon">
+                      <i class="fa-brands fa-square-github"></i>
+                    </a>
+                  </li>
+                  <li class="d-inline-block me-3">
+                    <a href="#projects" rel="noreferrer" class="hover-icon">
+                      <i class="fa-solid fa-globe"></i>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <h3 class="text-capitalize fs-5 my-3 text-center">Blog</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Freelancer -->
+  <section class="freelancer-available py-5 bg-danger">
+    <div class="container-lg py-4">
+      <div class="row justify-content-center">
+        <div class="col-lg-8 text-center">
+          <p class="text-light fs-5">Do you have any project ?</p>
+          <h2 class="fs-1 text-white mb-4">I'm Available For Freelancer Projects</h2>
+          <a href="#contact" class="btn btn-outline-light">Hire Me</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Testimonials -->
+
+  <!-- <section class="testimonials py-5" id="testimonials">
+    <div class="container-lg py-4">
+      <div class="row justify-content-center">
+        <div class="col-lg-8 ">
+          <div class="section-title text-center">
+            <h2 class="fw-bold mb-5">Testimonials</h2>
+          </div>
+        </div>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-lg-8 col-xl-7">
+          <div id="carousel1" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carousel1" data-bs-slide-to="0" class="active bg-danger"
+                aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carousel1" data-bs-slide-to="1" aria-label="Slide 2"
+                class="bg-danger"></button>
+              <button type="button" data-bs-target="#carousel1" data-bs-slide-to="2" aria-label="Slide 3"
+                class="bg-danger"></button>
+            </div>
+
+            <div class="carousel-inner p-1">
+              
+              <div class="testi-item carousel-item active bg-white shadow-sm rounded p-4 mb-5">
+                <div class="testi-author-info d-flex align-items-center">
+                  <img src="images/11.jpeg" alt="author img" class="img-thumbnail rounded-circle"
+                    style="width: 70px; height: 70px; object-fit: cover;" />
+                  <div class="author ms-3">
+                    <h3 class="fs-6 mb-1">Raj Himachal</h3>
+                    <p class="text-muted m-0">Seo Manager</p>
+                  </div>
+                </div>
+                <p class="text-muted mt-3">
+                  quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+                  ea commodo consequat
+                </p>
+                <div class="rating text-danger">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+              </div>
+
+              <div class="testi-item carousel-item bg-white shadow-sm rounded p-4 mb-5">
+                <div class="testi-author-info d-flex align-items-center">
+                  <img src="images/22.jpeg" alt="author img" class="img-thumbnail rounded-circle"
+                    style="width: 70px; height: 70px; object-fit: cover;" />
+                  <div class="author ms-3">
+                    <h3 class="fs-6 mb-1">Raj Himachal</h3>
+                    <p class="text-muted m-0">Seo Manager</p>
+                  </div>
+                </div>
+                <p class="text-muted mt-3">
+                  quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+                  ea commodo consequat
+                </p>
+                <div class="rating text-danger">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+              </div>
+
+              <div class="testi-item carousel-item bg-white shadow-sm rounded p-4 mb-5">
+                <div class="testi-author-info d-flex align-items-center">
+                  <img src="images/33.jpeg" alt="author img" class="img-thumbnail rounded-circle"
+                    style="width: 70px; height: 70px; object-fit: cover;" />
+                  <div class="author ms-3">
+                    <h3 class="fs-6 mb-1">Raj Himachal</h3>
+                    <p class="text-muted m-0">Seo Manager</p>
+                  </div>
+                </div>
+                <p class="text-muted mt-3">
+                  quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+                  ea commodo consequat
+                </p>
+                <div class="rating text-danger">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section> -->
+  <!-- Contact -->
+  <section class="contact py-5" id="contact">
+    <div class="container-lg py-4">
+      <div class="row justify-content-center">
+        <div class="col-lg-8">
+          <div class="section-title text-center">
+            <h2 class="fw-bold mb-5">Contact Me</h2>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <!-- Contact information -->
+        <div class="col-md-5">
+          <div class="contact-item d-flex mb-3">
+            <div class="icon fs-4 text-danger">
+              <i class="fas fa-envelope"></i>
+            </div>
+            <div class="text ms-3">
+              <h3 class="fs-5">Email</h3>
+              <p class="text-muted">kennyli0023@gmail.com</p>
+            </div>
+          </div>
+          <div class="contact-item d-flex mb-3">
+            <div class="icon fs-4 text-danger">
+              <i class="fas fa-phone"></i>
+            </div>
+            <div class="text ms-3">
+              <h3 class="fs-5">Phone</h3>
+              <p class="text-muted">(647) 216 1069</p>
+            </div>
+          </div>
+          <div class="contact-item d-flex mb-3">
+            <div class="icon fs-4 text-danger">
+              <i class="fab fa-linkedin-in"></i>
+            </div>
+            <div class="text ms-3">
+              <h3 class="fs-5">Linkedin</h3>
+              <p class="text-muted">https://www.linkedin.com/in/kenny-lkl/</p>
+            </div>
+          </div>
+        </div>
+        <!-- Contact form -->
+        <div class="col-md-7">
+          <div class="contact-form">
+            <form id="contactForm">
+              <div class="row">
+                <div class="col-lg-6 mb-4">
+                  <input type="text" name="name" class="form-control form-control-lg fs-6 border-0 shadow-sm"
+                    placeholder="Your Name" />
+                </div>
+                <div class="col-lg-6 mb-4">
+                  <input type="text" name="email" class="form-control form-control-lg fs-6 border-0 shadow-sm"
+                    placeholder="Your Email" />
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-lg-12 mb-4">
+                  <input type="text" name="subject" class="form-control form-control-lg fs-6 border-0 shadow-sm"
+                    placeholder="Subject" />
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-lg-12 mb-4">
+                  <textarea rows="5" name="message" class="form-control form-control-lg fs-6 border-0 shadow-sm"
+                    placeholder="Your Message"></textarea>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-lg-12">
+                  <button type="button" class="btn btn-danger px-3" onclick="sendMail()">Send</button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Footer -->
+  <footer class="footer border-top py-4">
+    <div class="container-lg">
+      <div class="row">
+        <div class="col-lg-12">
+          <p class="m-0 text-center text-muted">&copy; 2023 The Kenny Website</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="main.js"></script>
+</body>
+
+</html>
